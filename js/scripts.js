@@ -31,8 +31,7 @@ function newItem() {
   /*Under, the crossOutButton is connected to a new addEventListener on 'click'
   that will delete the li element clicked*/
   crossOutButton.on('click', function () {
-    li.addClass('delete');/*OR - instead of  'addClass('delete') we could use 'fadeOut()'
-    with some time to animate;'*/
+    li.fadeOut(200);/*OR - instead use 'addClass('delete'). Class .delete is set up to display:none*/
   });
 
   /*Under, the sortable function allows to drag and replace the li elements*/
