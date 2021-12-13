@@ -3,10 +3,11 @@
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+background: #181818;
 }
 
 .container{
+text-align: center;
 padding: 20px;
 width: 300px;
 margin: 0 auto;
@@ -36,7 +37,9 @@ padding: 5px 15px;
 cursor: pointer;
 opacity: .8;}
 
-ol {padding-left: 20px;}
+ol {
+  padding-left: 15px;
+}
 
 ol li {
   padding: 5px;
